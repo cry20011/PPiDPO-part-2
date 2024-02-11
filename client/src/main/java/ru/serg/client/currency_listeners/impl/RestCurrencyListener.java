@@ -1,9 +1,8 @@
 package ru.serg.client.currency_listeners.impl;
 
+
 import org.springframework.web.client.RestTemplate;
 import ru.serg.client.currency_listeners.CurrencyListener;
-
-import java.util.concurrent.TimeUnit;
 
 public class RestCurrencyListener implements CurrencyListener {
     RestTemplate restTemplate = new RestTemplate();
