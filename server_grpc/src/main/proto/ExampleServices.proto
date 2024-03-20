@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+import "google/protobuf/empty.proto";
+
+package ru.serg.grpc;
+
+option java_package = "ru.serg.grpc";
+option java_multiple_files = true;
+
+service CurrencyService {
+    rpc currencyUSDRUB(google.protobuf.Empty) returns(CurrencyResponse);
+}
+
+message CurrencyResponse {
+    float value = 1;
+}
