@@ -46,6 +46,12 @@
             <groupId>javax.annotation</groupId>
             <artifactId>javax.annotation-api</artifactId>
         </dependency>
+        <dependency>
+            <groupId>org.apache.zookeeper</groupId>
+            <artifactId>zookeeper</artifactId>
+            <version>3.9.2</version>
+        </dependency>
+
     </dependencies>
 
     <dependencyManagement>
